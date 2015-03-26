@@ -52,16 +52,10 @@ public class PrimeFactorsTest {
 	}
 
 	// Verifies that the PrimeFactors class correctly returns 2, 2, 2 for the
-	// prime factors of 8
+	// prime
+	// factors of 8
 	@Test
 	public void testEight() {
 		assertEquals(list(2, 2, 2), generate(8));
-	}
-
-	// Verifies that the PrimeFactors class correctly returns 3, 3 for the prime
-	// factors of 9
-	@Test
-	public void testNine() {
-		assertEquals(list(3, 3), generate(9));
 	}
 }
