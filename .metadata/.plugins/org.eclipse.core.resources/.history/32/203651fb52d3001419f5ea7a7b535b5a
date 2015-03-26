@@ -42,7 +42,7 @@ public class PrimeFactorsTest {
 		assertEquals(list(2, 2), generate(4));
 	}
 
-	// THIS TEST PASSED AT THE POINT OF BEING WRITTEN
+	// THIS TEST IS PASSING AT THE POINT OF BEING WRITTEN
 	// it's redundant, and thus unnecessary for TDD
 	// Verifies that the PrimeFactors class correctly returns 2, 3 for the prime
 	// factors of 6
@@ -64,13 +64,10 @@ public class PrimeFactorsTest {
 	public void testNine() {
 		assertEquals(list(3, 3), generate(9));
 	}
-
-	// THIS TEST PASSED AT THE POINT OF BEING WRITTEN
-	// it's redundant, and thus unnecessary for TDD
-	// Verifies that the PrimeFactors class correctly returns 5, 7, 7, 1327 for
-	// the prime factors of 325115
-	@Test
-	public void test325115() {
-		assertEquals(list(5, 7, 7, 1327), generate(325115));
-	}
+	
+	// Verifies that the PrimeFactors class correctly returns 5, 7, 7, 1327 for the prime factors of 325115
+		@Test
+		public void test325115() {
+			assertEquals(list(5, 7, 7, 1327), generate(325115));
+		}
 }
