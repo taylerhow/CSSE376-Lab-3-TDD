@@ -42,8 +42,6 @@ public class PrimeFactorsTest {
 		assertEquals(list(2, 2), generate(4));
 	}
 
-	// THIS TEST IS PASSING AT THE POINT OF BEING WRITTEN
-	// it's redundant, and thus unnecessary for TDD
 	// Verifies that the PrimeFactors class correctly returns 2, 3 for the prime
 	// factors of 6
 	@Test
