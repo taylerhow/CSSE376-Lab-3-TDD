@@ -28,8 +28,8 @@ public class PrimeFactorsTest {
 		assertEquals(list(2), generate(2));
 	}
 
-	// Verifies that the PrimeFactors class correctly returns 3 for the prime
-	// factors of 3
+	// Verifies that the PrimeFactors class correctly returns 2 for the prime
+	// factors of 2
 	@Test
 	public void testThree() {
 		assertEquals(list(3), generate(3));
