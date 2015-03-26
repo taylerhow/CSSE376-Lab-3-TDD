@@ -34,11 +34,4 @@ public class PrimeFactorsTest {
 	public void testThree() {
 		assertEquals(list(3), generate(3));
 	}
-
-	// Verifies that the PrimeFactors class correctly returns 2, 2 for the prime
-	// factors of 4
-	@Test
-	public void testFour() {
-		assertEquals(list(2,2), generate(4));
-	}
 }
