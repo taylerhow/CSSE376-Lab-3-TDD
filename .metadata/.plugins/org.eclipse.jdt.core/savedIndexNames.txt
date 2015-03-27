@@ -13,7 +13,6 @@ INDEX VERSION 1.127+/Users/taylerhow/Documents/GitHub/CSSE376-Lab-3-TDD/.metadat
 2178737305.index
 2885545355.index
 1769317737.index
-2854018155.index
 411166081.index
 4259282187.index
 2211732093.index
