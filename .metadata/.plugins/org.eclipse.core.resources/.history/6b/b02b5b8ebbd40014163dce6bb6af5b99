@@ -14,7 +14,7 @@ public class PrimeNumberGenerator {
 			list.add(3);
 		if (i >= 6)
 			list.add(5);
-		if (i >= 8)
+		if (i >= 6)
 			list.add(7);
 
 		return list;
