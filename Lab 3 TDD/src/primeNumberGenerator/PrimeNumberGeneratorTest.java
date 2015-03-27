@@ -11,35 +11,35 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-
-
 @RunWith(Parameterized.class)
 public class PrimeNumberGeneratorTest {
-   private Integer inputNumber;
-   private List<Integer> expectedResult;
-   
-   private static List<Integer> list(Integer... integers) {
+	private Integer inputNumber;
+	private List<Integer> expectedResult;
+
+	private static List<Integer> list(Integer... integers) {
 		return Arrays.asList(integers);
 	}
 
-   // Each parameter should be placed as an argument here
-   // Every time runner triggers, it will pass the arguments
-   // from parameters we defined in primeNumbers() method
-   public PrimeNumberGeneratorTest(Integer inputNumber, List<Integer> expectedResult) {
-      this.inputNumber = inputNumber;
-      this.expectedResult = expectedResult;
-   }
+	// Each parameter should be placed as an argument here
+	// Every time runner triggers, it will pass the arguments
+	// from parameters we defined in primeNumbers() method
+	public PrimeNumberGeneratorTest(Integer inputNumber,
+			List<Integer> expectedResult) {
+		this.inputNumber = inputNumber;
+		this.expectedResult = expectedResult;
+	}
 
    @Parameterized.Parameters
    public static Collection numbersToTest() {
       return Arrays.asList(new Object[][] {
          { 1, list() },
-         { 3, list(2)}
+         { 3, list(2)},
+         { 4, list(2,3)}
       });
    }
 
-   @Test
-   public void testPrimeNumberGenerator() {
-      assertEquals(expectedResult, generate(inputNumber));
-   }
+	@Test
+	public void testPrimeNumberGenerator() {
+		assertEquals(expectedResult, generate(inputNumber));
+	}
 }
