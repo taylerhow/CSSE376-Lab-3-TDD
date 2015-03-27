@@ -20,8 +20,6 @@ public class PrimeNumberGenerator {
 			list.add(11);
 		if (i >= 14)
 			list.add(13);
-		if (i >= 18)
-			list.add(17);
 
 		return list;
 	}
