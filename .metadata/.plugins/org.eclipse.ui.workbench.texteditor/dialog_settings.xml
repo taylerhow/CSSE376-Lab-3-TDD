@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="black" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="white"/>
+			<item value="activeFrames.get(0).getContentPane()"/>
+			<item value="activesFrames.get(0).getContentPane()"/>
+			<item value="Dog"/>
+			<item value="Camel"/>
+			<item value="Elephant"/>
+			<item value="y"/>
+			<item value="x"/>
+		</list>
+		<list key="replacehistory">
+			<item value="black"/>
+			<item value="gameBoardPanel"/>
+			<item value="Rabbit"/>
+			<item value="Cat"/>
+			<item value="Dog"/>
+			<item value="Horse"/>
+			<item value="Camel"/>
+			<item value="column"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="985" key="DIALOG_X_ORIGIN"/>
+		<item value="381" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
